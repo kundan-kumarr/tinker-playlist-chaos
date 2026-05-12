@@ -12,6 +12,16 @@ from playlist_logic import (
     search_songs,
 )
 
+"""
+The Streamlit user interface. It handles things like:
+
+- Showing and updating the mood profile
+- Adding songs
+- Displaying playlists
+- Lucky pick
+- Stats and history
+"""
+
 
 def init_state():
     """Initialize Streamlit session state."""
